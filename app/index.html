@@ -1,0 +1,128 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style_index.css" rel="stylesheet" />
+    <link href="menu.css" rel="stylesheet" />
+    <script src="search.js"></script>
+
+
+    <script type="text/javascript" src="./scripts.js"></script>
+
+    
+    <link rel="stylesheet" href="./stylem.css">
+    <link href="https://fonts.googleapis.com/css?family-Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family-Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+<div class="row">
+  <div class="column left container" style="background-color:#FFF;">
+    <h2>Tables</h2>
+
+        <div class="col-9" ondrop="ondropHandler(event)" ondragover="ondragOverHandler(event)" id="shopping-cart-zone">
+            <div class="row">
+                <div class="col-4">
+                    <p> Table - 1</p><br>
+                    <div class="text-center align-text-bottom" style="float: left;border: 1px solid #e8e5e5;border-radius: 6px; width: 200px">
+
+                    </div>
+                
+                    
+                    
+                    <button class="modal-open" data-modal="modal1" id="quantity-badge"></button>
+
+                    <div class="modal" id="modal1">
+                        <div class="modal-content">
+                            <div class= "modal-header">Modal 1
+                                <button class="icon modal-close">
+                                    <i class="material-icons" >close</i>
+                                </button>
+                            </div>
+                            <div class='modal-body' id="cart-products">
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button class="link modal-close">Close Modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9" ondrop="ondropHandler(event)" ondragover="ondragOverHandler(event)" id="shopping-cart-zone">
+            <div class="row">
+                <div class="col-4">
+                    <p> Table - 2</p><br>
+                    <div class="text-center align-text-bottom" style="float: left;border: 1px solid #e8e5e5;border-radius: 6px; width: 200px">
+
+                    </div>
+                
+                    
+                    <button class="modal-open" data-modal="modal2" id="quantity-badge"></button>
+
+                    <div class="modal" id="modal2">
+                        <div class="modal-content">
+                            <div class= "modal-header">Modal 2
+                                <button class="icon modal-close">
+                                    <i class="material-icons" >close</i>
+                                </button>
+                            </div>
+                            <div class='modal-body' id="cart-products">
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button class="link modal-close">Close Modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-9" ondrop="ondropHandler(event)" ondragover="ondragOverHandler(event)" id="shopping-cart-zone">
+            <div class="row">
+                <div class="col-4">
+                    <p> Table - 3</p><br>
+                    <div class="text-center align-text-bottom" style="float: left;border: 1px solid #e8e5e5;border-radius: 6px; width: 200px ;height: 20px">
+
+                    </div>
+                    <button class="modal-open" data-modal="modal3" id="quantity-badge"></button>
+
+                    <div class="modal" id="modal3">
+                        <div class="modal-content">
+                            <div class= "modal-header">Modal 3
+                                <button class="icon modal-close">
+                                    <i class="material-icons" >close</i>
+                                </button>
+                            </div>
+                            <div class='modal-body' id="cart-products">
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button class="link modal-close">Close Modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  </div>
+
+  
+  <div class="column right" style="background-color:#FFF;">
+    <h2>Menu</h2>
+    <div class="search-bar-menu">
+        <input type="text" id="search-menu" placeholder="Search menu by course by food" onkeyup="searchMenu()">
+    </div>
+        <div class="col-3" id="products-section">
+
+        </div>
+    
+  </div>
+</div>
+
+<script type="text/javascript" src="./sc.js"></script>
+</body>
+</html>
